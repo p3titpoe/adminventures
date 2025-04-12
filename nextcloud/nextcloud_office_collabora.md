@@ -3,13 +3,6 @@
 The *"easiest"* way to have a working Office is to install the Collabora server itself.  
 This can be done [via Docker Container](https://sdk.collaboraonline.com/docs/installation/CODE_Docker_image.html) - or like we will - by pulling the server from the repository and accessing it through a proxy.
 
-##### **__TOC__**
-
-- [Add Repository](#add-the-repository)
-- [Install & Basic Config](#set-up-collabora-server)
-- [Proxy Set up](#proxy-set-up)
-- [SSL Proxy Set up](#adding-ssl)
-
 > [!WARNING]
 > We assume you know when to substitute defaults
 >
