@@ -140,7 +140,7 @@ a2enconf php8.2-fpm
 systemctl restart apache2
 ```
 
-Tune some variables for fpm
+Tune some variables for php
 
 ```
 nano /etc/php/8.2/fpm/php.ini 
