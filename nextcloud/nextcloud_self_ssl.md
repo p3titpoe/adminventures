@@ -161,4 +161,4 @@ Enable SSL and restart apache
 a2enmod ssl
 systemctl restart apache2
 ```
-###[GO Back to Nextclous installation](nextcloud_from_scratch.md#ssl-activation)
+[###GO Back to Nextclous installation](nextcloud_from_scratch.md#ssl-activation)
