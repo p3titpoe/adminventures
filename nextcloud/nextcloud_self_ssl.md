@@ -2,17 +2,14 @@
 
 A guide to register your machine as CA and emit certs.
 
-::: info
+> [!NOTE]
 While based on Nextcloud install in local or dev networks, it can be used for any application needing SSL.
 
-:::
+> [!WARNING]
+> We assume you know when to substitute defaults
+>
+> We assume a debian 12 system
 
-::: warn
-We assume you know when to substitute defaults
-
-We assume a debian 12 system
-
-:::
 
 Create a directory to store your keys.  
 We will store them in /etc/MyCerts/certs
