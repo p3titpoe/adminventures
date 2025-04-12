@@ -495,8 +495,6 @@ opcache.save_comments=1
 
 <https://docs.nextcloud.com/server/31/admin_manual/installation/harden_server.html#setup-a-filter-and-a-jail-for-nextcloud>
 
-<https://tweenpath.net/installation-collabora-debain-12/>
-
 <https://www.aptgetlife.co.uk/setup-fail2ban-for-nextcloud/>
 
-<https://tweenpath.net/install-collabora-online-ubuntu-20-nextcloud/>
+
