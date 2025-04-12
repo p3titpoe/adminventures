@@ -1,9 +1,11 @@
 ## Nextcloud Server From Scratch...
 
-This more of a checklist than a real guide or tutorial.  
-This ***does NOT aim*** at being the perfect installation!
+  
+❗This guide ***does NOT aim*** at being the perfect installation!
 
-It ***does aim*** at being 
+❗It ***does aim*** at being a guide not being docker centered...and buiding it from scratch.
+
+The set up you end up will pass  
 
 > [!WARNING]
 > We assume that that you know when to change defaults user, passwords and domains as we go.
@@ -264,7 +266,7 @@ systemctl restart apache2
 
 If you need certs for development or local networks.  
   
-[**SELF SIGNED SSL WITH NEXTCLOUD**](https://outside.rimshot.lu/index.php/f/3339)
+[**SELF SIGNED SSL WITH NEXTCLOUD**](nextcloud_self_ssl.md)
 
 ### Fail2ban set up
 
