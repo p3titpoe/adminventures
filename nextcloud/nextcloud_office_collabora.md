@@ -5,10 +5,10 @@ This can be done [via Docker Container](https://sdk.collaboraonline.com/docs/ins
 
 ##### **__TOC__**
 
-- [Add Repository](#h-add-the-repository)
-- [Install & Basic Config](#h-set-up-collabora-server)
-- [Proxy Set up](#h-proxy-set-up)
-- [SSL Proxy Set up](#h-adding-ssl)
+- [Add Repository](#add-the-repository)
+- [Install & Basic Config](#set-up-collabora-server)
+- [Proxy Set up](#proxy-set-up)
+- [SSL Proxy Set up](#adding-ssl)
 
 > [!WARNING]
 > We assume you know when to substitute defaults
