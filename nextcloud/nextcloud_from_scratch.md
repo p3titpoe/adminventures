@@ -4,7 +4,7 @@
 ❗This guide ***does NOT aim*** at being the perfect installation, nor being **a guide** itself!
 
 ❗It ***does aim*** at being a checklist to build Nextcloud from scratch on a server for people that are knowledgable in linux.<br>
-(And maybe want that extra thrill :neutral_face:)
+(And maybe those that want the extra thrill :neutral_face:)
 
 The set up you end up will pass the Nextcloud Security Check. 
 
