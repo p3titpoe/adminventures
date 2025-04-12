@@ -1,6 +1,6 @@
 ## Self signed certs
 
-A guide to register your machine as CA and emit certs.
+How to register your machine as CA and emit certs.
 
 > [!NOTE]
 While based on Nextcloud install in local or dev networks, it can be used for any application needing SSL.
@@ -161,3 +161,4 @@ Enable SSL and restart apache
 a2enmod ssl
 systemctl restart apache2
 ```
+###[GO Back to Nextclous installation](nextcloud_from_scratch.md#ssl-activation)
