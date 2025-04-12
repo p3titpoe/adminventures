@@ -239,11 +239,17 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI[END,NE,R=permanent]
 ```
 
 > [!WARNING]
-> **VM Installation / local installation without DNS**
+> **Local installation without DNS**
 > To find your server you must:
->  - add localhost and your Ip to /etc/hosts on **your server**
->  - add the server ip to your /etc/hosts 
-
+>  - add localhost and server ip to /etc/hosts on **your server**, eg:
+>    ```
+>    127.0.0.1		nextcloud.example.com
+>    10.10.10.100	nextcloud.example.com
+>    ```
+>  - add the server ip to the hosts file on the machines you want them to acces. 
+>    ```
+>    10.10.10.100	nextcloud.example.com
+>    ```
 
 Activate and restart apache
 
