@@ -1,11 +1,12 @@
 ## Nextcloud Server From Scratch...
 
   
-❗This guide ***does NOT aim*** at being the perfect installation!
+❗This guide ***does NOT aim*** at being the perfect installation, nor being **a guide** itself!
 
-❗It ***does aim*** at being a guide not being docker centered...and buiding it from scratch.
+❗It ***does aim*** at being a checklist to build Nextcloud from scratch on a server for people that are knowledgable in linux.
+(And maybe want that extra thrill :upside-down)
 
-The set up you end up will pass  
+The set up you end up will pass the Nextcloud Security Check. 
 
 > [!WARNING]
 > We assume that that you know when to change defaults user, passwords and domains as we go.
