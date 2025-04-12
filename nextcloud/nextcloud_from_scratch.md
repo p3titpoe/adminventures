@@ -244,8 +244,8 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI[END,NE,R=permanent]
 > To find your server you must:
 >  - add localhost and server ip to /etc/hosts on **your server**, eg:
 >    ```
->    127.0.0.1		nextcloud.example.com
->    10.10.10.100	nextcloud.example.com
+>    127.0.0.1      nextcloud.example.com
+>    10.10.10.100   nextcloud.example.com
 >    ```
 >  - add the server ip to the hosts file on the machines you want them to acces. 
 >    ```
