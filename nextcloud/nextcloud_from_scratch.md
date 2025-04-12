@@ -165,10 +165,10 @@ mysql_secure_installation
 ⚠️ Change the root password and answer Y to all the questions
 
 ```
-		- Remove anonymous users? [Y/n] Y     
-		- Disallow root login remotely? [Y/n] Y     
-		- Remove test database and access to it? [Y/n] Y     
-		- Reload privilege tables now? [Y/n] Y     
+- Remove anonymous users? [Y/n] Y     
+- Disallow root login remotely? [Y/n] Y     
+- Remove test database and access to it? [Y/n] Y     
+- Reload privilege tables now? [Y/n] Y     
 ```
 
 Restart the mysql server and login as root
