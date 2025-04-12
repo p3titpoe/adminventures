@@ -238,6 +238,13 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI[END,NE,R=permanent]
 </VirtualHost>
 ```
 
+> [!WARNING]
+> **VM Installation / local installation without DNS**
+> To find your server you must:
+>  - add localhost and your Ip to /etc/hosts on **your server**
+>  - add the server ip to your /etc/hosts 
+
+
 Activate and restart apache
 
 ```
