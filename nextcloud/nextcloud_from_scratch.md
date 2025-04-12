@@ -482,13 +482,10 @@ opcache.revalidate_freq=2
 opcache.save_comments=1
 ```
 
-### 
-
-### Conclusion
 
 #### Useful Links
 
-[https://docs.nextcloud.com/server/31/admin_manual/installation/source_installation.html ](https://docs.nextcloud.com/server/31/admin_manual/installation/source_installation.html%20)
+<https://docs.nextcloud.com/server/31/admin_manual/installation/source_installation.html%20>
 
 <https://www.linuxtuto.com/how-to-install-nextcloud-on-debian-12/#google_vignette> 
 
@@ -498,7 +495,7 @@ opcache.save_comments=1
 
 <https://docs.nextcloud.com/server/31/admin_manual/installation/harden_server.html#setup-a-filter-and-a-jail-for-nextcloud>
 
-<https://tweenpath.net/installation-collabora-debain-12/ >
+<https://tweenpath.net/installation-collabora-debain-12/>
 
 <https://www.aptgetlife.co.uk/setup-fail2ban-for-nextcloud/>
 
