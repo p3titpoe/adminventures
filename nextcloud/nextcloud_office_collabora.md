@@ -17,7 +17,7 @@ This can be done [via Docker Container](https://sdk.collaboraonline.com/docs/ins
 
 
 
-> [!NOTE]
+> [!CAUTION]
 > We will be working as root
 
 
@@ -160,7 +160,7 @@ systemctl restart apache2
 
 #### Function Testing Proxy
 
-If  your server was [up and running on the previous check,](https://outside.rimshot.lu/index.php/apps/notes/note/3347#h-testing-collabora) we  request the same endpoint again but through the proxy.  
+If  your server was [up and running on the previous check,](#testing-collabora) we  request the same endpoint again but through the proxy.  
 The output should be a big XML file.
 
 ```
@@ -327,4 +327,4 @@ Restart apache
 systemctl reload apache2
 ```
 
-GO TO [Nextcloud set up](https://outside.rimshot.lu/index.php/apps/notes/note/3347#h-nextcloud-set-up)
+GO TO [Nextcloud set up](#nextcloud-set-up)
