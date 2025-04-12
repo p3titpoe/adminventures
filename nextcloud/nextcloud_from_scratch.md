@@ -249,7 +249,7 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI[END,NE,R=permanent]
 >    ```
 >  - add the server ip to the hosts file on the machines you want them to acces. 
 >    ```
->    10.10.10.100	nextcloud.example.com
+>    10.10.10.100   nextcloud.example.com
 >    ```
 
 Activate and restart apache
