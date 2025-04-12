@@ -116,7 +116,7 @@ apt install sudo
 > [!WARNING]
 > **sudo** will only be installed to interact with the [Nextcloud  occ command ](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html)
 > 
-> __No other user will be allowed to use sudo, eg not in sudoer's__
+> __No other user will be allowed to use sudo__
 
 ### Apache2 Set Up
 
