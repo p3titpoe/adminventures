@@ -226,7 +226,7 @@ Navigate
 
 ### Self Signed SSL Proxy
 
-This is based on the[ self signed SSL guide](https://outside.rimshot.lu/index.php/f/3339) for Nextcloud.
+This is based on the[ self signed SSL guide](nextcloud_self_ssl.md) for Nextcloud.
 
 ```
 cd /etc/MyCerts/certs/sites/
