@@ -183,7 +183,7 @@ curl https://collabora.example.com/hosting/discovery
 
 #### Self signed SSL Proxy
 
-Here [you go.](https://outside.rimshot.lu/index.php/apps/notes/note/3347#h-self-signed-ssl-proxy--1)
+Here [you go.](#self-signed-ssl-proxy--1)
 
 ### Nextcloud Set Up
 
