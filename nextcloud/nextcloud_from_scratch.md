@@ -240,6 +240,7 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI[END,NE,R=permanent]
 
 > [!WARNING]
 > **Local installation without DNS**
+> 
 > To find your server you must:
 >  - add localhost and server ip to /etc/hosts on **your server**, eg:
 >    ```
