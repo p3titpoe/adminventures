@@ -251,6 +251,10 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI[END,NE,R=permanent]
 >    ```
 >    10.10.10.100   nextcloud.example.com
 >    ```
+> **Installation with DNS**
+> 
+> We assume you know how to comfigure your DNS (adding sub domains)
+
 
 Activate and restart apache
 
