@@ -422,7 +422,7 @@ Add the cache (more about it here)
 For this to work properly, you have to install the [Collabora CODE ](https://www.collaboraonline.com/code/#learnmorecode)server onto your machine.  
 Since that is another beast, you' ll find the instructions for the installation, set up of server - including self signed SSL - and the Nextcloud configuration in a separate file.  
   
-[**NEXTCLOUD-COLLABORA-GUIDE**](nextcloud_collabora.md)
+[**NEXTCLOUD-COLLABORA-GUIDE**](nextcloud_office_collabora.md)
 
 ###   
 Nextcloud Post install
