@@ -151,6 +151,7 @@ Paste
 >    10.10.10.100   collabora.example.com
 >    ```
 > **Installation with DNS**
+> 
 >  We assume you know how to comfigure your DNS (adding sub domains)
  
 
