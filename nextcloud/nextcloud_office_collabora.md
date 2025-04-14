@@ -137,6 +137,19 @@ Paste
   ProxyPassReverse /lool http://127.0.0.1:9980/cool
 </VirtualHost> 
 ```
+> [!WARNING]
+> **Local installation without DNS**
+> 
+> To find your server you must:
+>  - add localhost and your server ip to /etc/hosts on **your server**, eg:
+>    ```
+>    127.0.0.1      collabora.example.com
+>    10.10.10.100   collabora.example.com
+>    ```
+>  - add your server ip to the hosts file on the machines you want them to acces. 
+>    ```
+>    10.10.10.100   collabora.example.com
+>    ```
 
 Enable apache mods & site
 
@@ -312,6 +325,7 @@ Paste
   ProxyPassReverse /lool http://127.0.0.1:9980/cool
 </VirtualHost>
 </IfModule>
+
 ```
 
 Restart apache
