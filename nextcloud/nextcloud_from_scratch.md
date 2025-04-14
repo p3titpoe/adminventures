@@ -361,10 +361,11 @@ crontab -u www-data -e
 
 Navigate with your browser to <https://nextcloud.example.com>
 
-> [!NOTE]
+> [!WARNING]
 > We have creted the data/ directory inside the nextcloud directory.
 > This might be okay for testing / dev, but if you plan to enrole users,
 > I + Nextcloud would stronly recommend you take a step back and give a thought to the storage question.
+> 
 > ⚠️ Remeber to chown www-data:www-data the directory you've chosen.
 
 Fill out all the info needed and login.
