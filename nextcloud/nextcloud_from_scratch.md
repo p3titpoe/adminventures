@@ -201,7 +201,7 @@ cd /var/www
 wget https://download.nextcloud.com/server/releases/latest.zip
 unzip latest.zip
 mkdir /var/www/nextcloud/data
-chown -R www-data.www-data nextcloud/
+chown -R www-data:www-data nextcloud/
 ```
 
 Create the virtual host configuration
