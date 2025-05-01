@@ -135,7 +135,7 @@ Install needed php modules
 
 ```
 
-apt install php php-fpm php-cli php-mysql php.apcu php-common php-gd php-xml php-mbstring php-zip php-curl php-json php-bz2 php-intl php-bcmath php-gmp php-imagick
+apt install php php-fpm php-cli php-mysql php-apcu php-common php-gd php-xml php-mbstring php-zip php-curl php-json php-bz2 php-intl php-bcmath php-gmp php-imagick
 
 #after installation of modules to activate fpm
 a2enmod proxy_fcgi setenvif
