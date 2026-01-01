@@ -204,7 +204,7 @@ We'll create the /data directory inside our nextcloud directory and set the righ
 > If you plan to enrole users, we - Nextcloud + myself - would strongly
 > recommend you take a step back and give a thought to the storage question.
 > 
-> ⚠️ Remeber to chown www-data:www-data the directory you've chosen.
+> ⚠️ Remember to chown www-data:www-data the directory you've chosen.
 
 
 ```
@@ -372,14 +372,13 @@ crontab -u www-data -e
 
 Navigate with your browser to <https://nextcloud.example.com>
 
-> 
-Fill out all the info needed and login.
+ 
+- Fill out all the info needed and login.
 
-Install the apps when prompted (chose what you need).
+- Install the apps when prompted (chose what you need).
 
 **Head to:**
-
-> Personal Settings -> Fill out the Email adress.
+- Personal Settings -> Fill out the Email adress.
 
 (You need one to get the test mail)
 
