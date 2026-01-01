@@ -89,6 +89,9 @@ Generate a CSR (Certificate Signing Request)
 ```
 openssl req -new -key nextcloud.example.com-master.key -out nextcloud.example.com.csr
 ```
+>[!NOTE]
+>When asked about a challenge password, you can leave it [empty](https://security.stackexchange.com/questions/77028/whats-the-use-of-challenge-password-in-build-key-server-and-build-key-from-easy/77082#77082)
+
 
 Create a X509v3 extension file for the SAN of the certificates
 
