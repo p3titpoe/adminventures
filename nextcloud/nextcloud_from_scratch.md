@@ -126,7 +126,7 @@ apt install sudo
 > [!WARNING]
 > **sudo** will only be installed to interact with the [Nextcloud  occ command ](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html)
 > 
-> __Only root will be allowed to use sudo__
+> <ins>__Only root will be allowed to use sudo__</ins>
 
 ### Apache2 Set Up
 
@@ -141,10 +141,11 @@ a2enmod headers rewrite env dir mime
 
 ### Php Setup & Base Config
 > [!WARNING]
-> **A note on php versions** 
-> As this writing has been uodated to Debian on 13, default version was php8.4
+> **A note on php versions**
+> 
+> As this writing has been updated to Debian on 13, default version was php8.4
 > Depending on your system, the php version might be different and
-> you need to change the lines mentioning version 8.4 to your version of php. 
+> you need <ins>__to change the lines mentioning version 8.4__</ins> to your version of php. 
 
 
 Install needed php modules
@@ -181,6 +182,7 @@ apt install mariadb-server
 ```
 > [!NOTE]
 > On Debian 13, MariaDB is secure, with root access granted through UNIX socket.
+> 
 > Have [a read](https://sources.debian.org/src/mariadb/1%3A11.8.3-0%2Bdeb13u1/debian/mariadb-server.README.Debian#L109) about it.
 > 
 > You can skip to [creating the database](#create-the-nextcloud-database).
@@ -220,8 +222,7 @@ exit;
 
 Arrived here, we can download and unpack the Nextcloud package.  
 We'll create the /data directory inside our nextcloud directory and set the right permissions.
-
-[!WARNING]
+>[!WARNING]
 > We will create the data/ directory inside the nextcloud/ directory.
 > 
 > This is **NOT** a good practice, but should be fine for testing & development.
