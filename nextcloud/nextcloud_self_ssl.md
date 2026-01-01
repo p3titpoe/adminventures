@@ -31,6 +31,11 @@ We create a new Certificate Authority (CA)
 #Generate a private key to sign with
 openssl genrsa -des3 -out MyCA.key 2048
 
+```
+>[!NOTE]
+>You will be asked your Passphrase as well as some infos to fill in
+
+```
 #Generate the .pem
 openssl req -x509 -new -nodes -key MyCA.key -sha256 -days 1825 -out MyrootCA.pem
 ```
