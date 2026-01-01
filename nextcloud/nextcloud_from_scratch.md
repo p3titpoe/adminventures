@@ -14,6 +14,8 @@ The set up you end up will pass the Nextcloud Security Check.
 ### Base Debian install
 
 I will be using [Debian12 Netinstall](https://www.debian.org/CD/netinst/)  for the base server installation.
+This guide can be used for other distros though. The packages should available in all major distros (at least)
+
 
 > [!WARNING]
 > **If installing in a VM**  
@@ -138,6 +140,12 @@ a2enmod headers rewrite env dir mime
 ```
 
 ### Php Setup & Base Config
+> [!WARNING]
+> **A note on php versions** 
+> As this writing is based Debian on 12, default version was php8.2
+> Depending on your system, the php version might be different and
+> you need to change the lines mentioning version 8.2 to your version of php. 
+
 
 Install needed php modules
 
