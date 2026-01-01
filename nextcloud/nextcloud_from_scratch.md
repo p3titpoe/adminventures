@@ -178,6 +178,12 @@ Install maria db and run the secure installation
 
 ```
 apt install mariadb-server
+```
+> [!NOTE]
+> On Debian, MariaDB is secure, with root access granted through UNIX socket.
+> You can skip the next step
+
+```
 mariadb-secure-installation 
 ```
 
