@@ -13,7 +13,7 @@ The set up you end up will pass the Nextcloud Security Check.
 
 ### Base Debian install
 
-I will be using [Debian12 Netinstall](https://www.debian.org/CD/netinst/)  for the base server installation.
+I will be using [Debian13 Netinstall](https://www.debian.org/CD/netinst/)  for the base server installation.
 This guide can be used for other distros though. The packages should available in all major distros (at least)
 
 
@@ -142,9 +142,9 @@ a2enmod headers rewrite env dir mime
 ### Php Setup & Base Config
 > [!WARNING]
 > **A note on php versions** 
-> As this writing is based Debian on 12, default version was php8.2
+> As this writing has been uodated to Debian on 13, default version was php8.4
 > Depending on your system, the php version might be different and
-> you need to change the lines mentioning version 8.2 to your version of php. 
+> you need to change the lines mentioning version 8.4 to your version of php. 
 
 
 Install needed php modules
@@ -155,21 +155,21 @@ apt install php php-fpm php-cli php-mysql php-apcu php-common php-gd php-xml php
 
 #after installation of modules to activate fpm
 a2enmod proxy_fcgi setenvif
-a2enconf php8.2-fpm
+a2enconf php8.4-fpm
 systemctl restart apache2
 ```
 
 Tune some variables for php
 
 ```
-nano /etc/php/8.2/fpm/php.ini 
+nano /etc/php/8.4/fpm/php.ini 
 
 #Search for and set these variables
 max_execution_time = 300
 memory_limit = 512M
 post_max_size = 128M
 
-systemctl restart php8.2-fpm
+systemctl restart php8.4-fpm
 ```
 
 ### MYSQL(MARIADB) SETUP
@@ -180,8 +180,10 @@ Install maria db and run the secure installation
 apt install mariadb-server
 ```
 > [!NOTE]
-> On Debian, MariaDB is secure, with root access granted through UNIX socket.
-> You can skip the next step
+> On Debian 13, MariaDB is secure, with root access granted through UNIX socket.
+> Have [a read](https://sources.debian.org/src/mariadb/1%3A11.8.3-0%2Bdeb13u1/debian/mariadb-server.README.Debian) about it, start at line 109.
+> 
+> You can skip to [creating the database](#create-the-nextcloud-database).
 
 ```
 mariadb-secure-installation 
@@ -203,7 +205,7 @@ systemctl restart mariadb
 mysql -u root -p
 ```
 
-Create the Nextcloud database,  Nextcloud user and grant privileges.  
+Create the Nextcloud database
 ⚠️ Keep your users & passwords safe.
 
 ```
