@@ -489,7 +489,7 @@ You can do that if you need it.
 >More [information](https://nextcloud.github.io/app_api/CreationOfDeployDaemon.html)
 
 
-**Testmail not sending**
+#### Testmail not sending
 
 If mail sending does not work because of CA issues, add this into your config.php
 
@@ -507,7 +507,7 @@ If mail sending does not work because of CA issues, add this into your config.ph
 ```
 
   
-**Errors about the database**
+#### Errors about the database
 
 You might to run some database repairs manually.   
 Two of the most common tasks below.  
@@ -523,7 +523,7 @@ occ maintenance:repair --include-expensive
 
 In general, the system will tell you what command to execute, that's where the alias comes in handy.
 
-**Cache related issues**
+#### Cache related issues
 
 There are some settings worth playing with if you have op-cache related errors.
 
