@@ -483,8 +483,8 @@ Most likely, we have not installed Redis and there's no High Performance Backend
 You can do that if you need it.
 
 >[!NOTE]
->The latest version on NextCloud have the AppAPI enabled by default.
->For this to work, you need to have docker installed and create a deamon through the gui.
+>The latest versions of NextCloud have the AppAPI enabled by default.
+>For this to work, you need to have docker installed and create a daemon through the gui.
 >
 >More [information](https://nextcloud.github.io/app_api/CreationOfDeployDaemon.html)
 
