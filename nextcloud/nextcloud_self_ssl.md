@@ -40,7 +40,7 @@ openssl genrsa -des3 -out MyCA.key 2048
 openssl req -x509 -new -nodes -key MyCA.key -sha256 -days 1825 -out MyrootCA.pem
 ```
 
-Create a folder for you CA and copy the generated .pem to ca-certificates renaming it \*.crt\*:
+Create a folder for your CA inside the system register (ca-certificates) and copy the generated .pem there, renaming it \*.crt\*:
 
 ```
 mkdir /usr/local/share/ca-certificates/MyCA
