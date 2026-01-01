@@ -95,6 +95,14 @@ ufw allow WWW\ Full
 #enable the firewall
 ufw enable
 ```
+If you can't execute ufw for some reason, check if /usr/sbin is in your PATH
+```
+echo $PATH
+```
+If not, add it
+```
+export PATH=$PATH:/usr/sbin
+```
 
 ### Install Fail2Ban
 
