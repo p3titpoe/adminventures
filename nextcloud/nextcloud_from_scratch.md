@@ -162,7 +162,7 @@ Install maria db and run the secure installation
 
 ```
 apt install mariadb-server
-mysql_secure_installation 
+mariadb-secure-installation 
 ```
 
 ⚠️ Change the root password and answer Y to all the questions
