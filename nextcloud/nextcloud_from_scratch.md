@@ -205,7 +205,7 @@ systemctl restart mariadb
 mysql -u root -p
 ```
 
-# Create the Nextcloud database
+#### Create the Nextcloud database
 
 ⚠️ Keep your users & passwords safe.
 
