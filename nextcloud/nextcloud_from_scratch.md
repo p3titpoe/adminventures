@@ -181,7 +181,7 @@ apt install mariadb-server
 ```
 > [!NOTE]
 > On Debian 13, MariaDB is secure, with root access granted through UNIX socket.
-> Have [a read](https://sources.debian.org/src/mariadb/1%3A11.8.3-0%2Bdeb13u1/debian/mariadb-server.README.Debian) about it, start at line 109.
+> Have [a read](https://sources.debian.org/src/mariadb/1%3A11.8.3-0%2Bdeb13u1/debian/mariadb-server.README.Debian#L109) about it.
 > 
 > You can skip to [creating the database](#create-the-nextcloud-database).
 
@@ -205,7 +205,8 @@ systemctl restart mariadb
 mysql -u root -p
 ```
 
-Create the Nextcloud database
+# Create the Nextcloud database
+
 ⚠️ Keep your users & passwords safe.
 
 ```
