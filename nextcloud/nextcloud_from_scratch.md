@@ -218,7 +218,7 @@ FLUSH PRIVILEGES;
 exit;
 ```
 
-### Nextcloud Set Up
+### First Nextcloud run
 
 Arrived here, we can download and unpack the Nextcloud package.  
 We'll create the /data directory inside our nextcloud directory and set the right permissions.
