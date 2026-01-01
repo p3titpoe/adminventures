@@ -465,8 +465,7 @@ Since that is another beast, you' ll find the instructions for the installation,
   
 [**NEXTCLOUD-COLLABORA-GUIDE**](nextcloud_office_collabora.md)
 
-###   
-Nextcloud Post install
+### Nextcloud Post install
 
 **System Emails & Cronjobs**
 
@@ -482,6 +481,13 @@ Check if the background jobs run properly
 Here you can check what is still missing.  
 Most likely, we have not installed Redis and there's no High Performance Backend.  
 You can do that if you need it.
+
+>[!NOTE]
+>The latest version on NextCloud have the AppAPI enabled by default.
+>For this to work, you need to have docker installed and create a deamon through the gui.
+>
+>More [information](https://nextcloud.github.io/app_api/CreationOfDeployDaemon.html)
+
 
 **Testmail not sending**
 
@@ -524,7 +530,7 @@ There are some settings worth playing with if you have op-cache related errors.
 Open the .ini file
 
 ```
-nano /etc/php/8.2/fpm/php.ini
+nano /etc/php/8.4/fpm/php.ini
 ```
 
 Search for these settings
