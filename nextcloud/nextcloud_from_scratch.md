@@ -213,7 +213,7 @@ mysql -u root -p
 
 ```
 CREATE DATABASE nextcloud_db;
-GRANT ALL ON nextcloud_db.* TO 'nextclousuer'@'localhost' IDENTIFIED BY 'VERYSTRONGPASSWD';
+GRANT ALL ON nextcloud_db.* TO 'nextclouduser'@'localhost' IDENTIFIED BY 'VERYSTRONGPASSWD';
 FLUSH PRIVILEGES;
 exit;
 ```
