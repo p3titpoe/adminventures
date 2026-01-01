@@ -116,7 +116,7 @@ DNS.1 = nextcloud.example.com
 Generate the signed certs
 
 ```
-openssl x509 -req -in nextcloud.example.com.csr -CA /etc/Mycerts/certs/MyrootCA.pem -CAkey /etc/rimshot/certs/MyCA.key -CAcreateserial -out nextcloud.example.com.crt -days 825 -sha256 -extfile nextcloud.example.com.ext
+openssl x509 -req -in nextcloud.example.com.csr -CA /etc/Mycerts/certs/MyrootCA.pem -CAkey /etc/Mycerts/certs/MyCA.key -CAcreateserial -out nextcloud.example.com.crt -days 825 -sha256 -extfile nextcloud.example.com.ext
 ```
 
 ### 
