@@ -196,6 +196,17 @@ exit;
 Arrived here, we can download and unpack the Nextcloud package.  
 We'll create the /data directory inside our nextcloud directory and set the right permissions.
 
+[!WARNING]
+> We will create the data/ directory inside the nextcloud/ directory.
+> 
+> This is **NOT** a good practice, but should be fine for testing & development.
+>
+> If you plan to enrole users, we - Nextcloud + myself - would strongly
+> recommend you take a step back and give a thought to the storage question.
+> 
+> ⚠️ Remeber to chown www-data:www-data the directory you've chosen.
+
+
 ```
 cd /var/www
 wget https://download.nextcloud.com/server/releases/latest.zip
@@ -247,7 +258,7 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI[END,NE,R=permanent]
 >    127.0.0.1      nextcloud.example.com
 >    10.10.10.100   nextcloud.example.com
 >    ```
->  - add the server ip to the hosts file on the machines you want them to acces. 
+>  - add the server ip to the hosts file on the machines you want them to access. 
 >    ```
 >    10.10.10.100   nextcloud.example.com
 >    ```
@@ -361,13 +372,7 @@ crontab -u www-data -e
 
 Navigate with your browser to <https://nextcloud.example.com>
 
-> [!WARNING]
-> We have creted the data/ directory inside the nextcloud directory.
-> This might be okay for testing / dev, but if you plan to enrole users,
-> I + Nextcloud would stronly recommend you take a step back and give a thought to the storage question.
 > 
-> ⚠️ Remeber to chown www-data:www-data the directory you've chosen.
-
 Fill out all the info needed and login.
 
 Install the apps when prompted (chose what you need).
