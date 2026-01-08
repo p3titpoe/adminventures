@@ -513,7 +513,7 @@ If mail sending does not work because of CA issues, add this into your config.ph
   
 #### Errors about the database
 
-You might to run some database repairs manually.   
+You might have to run some database repairs manually.   
 Two of the most common tasks below.  
 ❗ Note the use of the [alias](#set-up-alias-in-bash) we set before.
 
