@@ -147,8 +147,8 @@ Your config file should look like this
         #SSL
         SSLEngine on
 
-        SSLCertificateFile /etc/rimshot/certs/sites/nextcloud.example.com.crt
-        SSLCertificateKeyFile /etc/rimshot/certs/sites/nextcloud.example.com.key
+        SSLCertificateFile /etc/Mycerts/certs/sites/nextcloud.example.com.crt
+        SSLCertificateKeyFile /etc/Mycerts/certs/sites/nextcloud.example.com.key
         Header always set Strict-Transport-Security "max-age=31536000"
 
         <Directory /var/www/nextcloud/>
