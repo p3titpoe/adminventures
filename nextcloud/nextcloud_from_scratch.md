@@ -97,7 +97,7 @@ ufw allow WWW\ Full
 #enable the firewall
 ufw enable
 ```
-If you can't execute ufw for some reason, check if /usr/sbin is in your PATH
+⚠️If you can't execute ufw for some reason, check if /usr/sbin is in your PATH
 ```
 echo $PATH
 ```
@@ -373,10 +373,14 @@ Restart fail2ban
 systemctl restart fail2ban
 ```
 
-### Set Up alias in bash
+### Set Up alias
 
 > [!NOTE]
-> Create an alias for the Nextcloud occ command, preferably in your .bash_aliases
+> Create an alias for the Nextcloud occ command in the console of your choice
+> (.bashrc , .bash_alias, .zshrc.... 
+>
+> Remember to source the file (or logout / login)
+
 
 ```
 alias occ='sudo -u  www-data php /var/www/nextcloud/occ'
