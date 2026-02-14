@@ -3,9 +3,6 @@ Ventures into NextCloud
 
 ### Installation (bare metal) [(link)](Installation/)
 
-### Python Libs
-
-
 ### Useful Links
 - ##### Server
 
