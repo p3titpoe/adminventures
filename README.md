@@ -1,4 +1,4 @@
 # NextCloud Stuff
 Ventures into NextCloud 
 
-### Installation (bare metal) [(link)](nextcloud/)
+### Installation (bare metal) [(link)](Installation/)
