@@ -4,11 +4,10 @@ Ventures into NextCloud
 ### Installation (bare metal) [(link)](Installation/)
 
 ### Python Libs
-- **[Nextcloud Python Framework](https://github.com/cloud-py-api/nc_py_api)**
-- **[Nextcloud OCC Library](https://github.com/p3titpoe/lib_nc-occ)**
+
 
 ### Useful Links
-- **Server**
+- ##### Server
 
   - **[NextCloud server bare metal install (official Docs)](https://docs.nextcloud.com/server/latest/admin_manual/installation/source_installation.html)**
   - **[NextCloud server tuning](https://docs.nextcloud.com/server/31/admin_manual/installation/server_tuning.html#enable-php-opcache)**
@@ -18,8 +17,13 @@ Ventures into NextCloud
   - **[Fail2Ban for Nextcloud](https://www.aptgetlife.co.uk/setup-fail2ban-for-nextcloud/)**
   - **[Bare Metal Automatic Install (german)](https://github.com/sunweaver/nextcloud-high-performance-backend-setup)**
 
-- **Python Dev**
+- ##### Dev
 
   - **[Nextcloud Webhooks](https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html)**
+
+- ##### Dev Python
+  
   - **[ExApp Development Tutorial for Pythonistas](https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html)**
+  - **[Nextcloud Python Framework](https://github.com/cloud-py-api/nc_py_api)**
+  - **[Nextcloud OCC Library](https://github.com/p3titpoe/lib_nc-occ)**
 
