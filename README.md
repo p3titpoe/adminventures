@@ -1,4 +1,4 @@
-# adminventures
-Ventures into sysadmin stuff
+# NextCloud Stuff
+Ventures into NextCloud 
 
-### Nextcloud [(link)](nextcloud/)
+### Installation (bare metal) [(link)](nextcloud/)
