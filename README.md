@@ -1,5 +1,5 @@
 # NextCloud Stuff
-Ventures into NextCloud 
+Ventures into NextCloud server & app development. 
 
 ### Installation (bare metal) [(link)](Installation/)
 
