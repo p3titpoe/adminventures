@@ -4,7 +4,7 @@ Ventures into NextCloud server & app development.
 ### Installation (bare metal) [(link)](Installation/)
 
 ### How TO
- - **[Webhooks]([how_to/Webhooks.md))**
+ - **[Webhooks](how_to/Webhooks.md)**
 
 ### Useful Links
 - ##### Server
