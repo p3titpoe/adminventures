@@ -1,9 +1,12 @@
 # NextCloud Stuff
 Ventures into NextCloud server & app development. 
 
-### Installation (bare metal) [(link)](Installation/)
+### Installation (bare metal) 
+ - **[Bare Metal](installation/nextcloud_from_scratch.md)**
+ - **[Collabora](installation/nextcloud_office_collabora.md)**
+ - **[Self signed SSL](installation/nextcloud_self_ssl.md)**
 
-### How TO
+### How to
  - **[Webhooks](how_to/Webhooks.md)**
 
 ### Useful Links
