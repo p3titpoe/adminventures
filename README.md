@@ -2,9 +2,9 @@
 Ventures into NextCloud server & app development. 
 
 ### Installation (bare metal) 
- - **[Bare Metal](installation/nextcloud_from_scratch.md)**
- - **[Collabora](installation/nextcloud_office_collabora.md)**
- - **[Self signed SSL](installation/nextcloud_self_ssl.md)**
+ - **[Bare Metal](Installation/nextcloud_from_scratch.md)**
+ - **[Collabora](Installation/nextcloud_office_collabora.md)**
+ - **[Self signed SSL](Installation/nextcloud_self_ssl.md)**
 
 ### How to
  - **[Webhooks](how_to/Webhooks.md)**
